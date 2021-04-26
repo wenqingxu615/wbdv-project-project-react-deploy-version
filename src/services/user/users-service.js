@@ -59,7 +59,7 @@ const updateUser = (updated) => {
 const logout = () => { return fetch(`${USER_API}/api/users/logout`, {
     method: "POST",
     credentials: "include"
-}).then(response => response.json())}
+}).then(response => response)}
 
 const count = () => {
     return fetch(`${USER_API}`)
