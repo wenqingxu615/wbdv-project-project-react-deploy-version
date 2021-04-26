@@ -45,7 +45,6 @@ const NavigatorSignIn = () => {
                     </li>
                     <li className="nav-item">
                         <a className="nav-link"
-                           href="/homepage"
                            onClick={() => {logout()} }>logout</a>
                     </li>
                 </ul>
