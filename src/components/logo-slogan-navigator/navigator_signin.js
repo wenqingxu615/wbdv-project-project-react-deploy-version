@@ -9,7 +9,7 @@ const NavigatorSignIn = () => {
         userService.logout()
             .then( r => {
                 console.log(r)
-                history.push("/homepage")})
+                history.push("/")})
     }
     const [role, setRole] = useState()
     // useEffect(() => {
