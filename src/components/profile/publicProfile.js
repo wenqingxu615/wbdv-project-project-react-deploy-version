@@ -13,9 +13,10 @@ const PublicProfile=()=>{
     const update = () => {
 
         userService.updateUser(cachedItem)
-            .then(response => console.log(response))
-        userService.updateUser(user)
-            .then(response => console.log(response))
+            .then(response => {
+                userService.updateUser(user)
+                    .then(r => window.location.reload())
+            })
     }
     useEffect(() => {
 
