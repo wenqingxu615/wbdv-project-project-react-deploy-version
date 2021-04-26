@@ -1,0 +1,14 @@
+.welcome-sentence{
+    font-size: 48px;
+    padding-left: 75px;
+    font-family: "Gill Sans", sans-serif;
+    color: cadetblue;
+}
+.padding{
+    padding-left:75px;
+    padding-right:70px;
+}
+.row-padding{
+    paddinf-left:20px;
+    padding-right: 25px;
+}

@@ -1,0 +1,65 @@
+.namecolor{
+    padding-top: 30px;
+    padding-left: 50px;
+    color: goldenrod;
+    font-size: 80px;
+    font-family: "Gill Sans", sans-serif
+}
+
+.textsearchbar{
+    padding-top: 70px;
+    padding-left: 50px;
+    border-radius: 2em;
+    margin: 0 auto;
+    font-family: "Gill Sans", sans-serif
+
+}
+
+.textsearchbutton{
+    padding-top: 70px;
+    padding-left: 40px;
+    font-family: "Gill Sans", sans-serif
+
+}
+
+.slogancolor{
+    padding-left: 50px;
+    padding-top: 8px;
+    color: dodgerblue;
+    font-family: "Gill Sans", sans-serif;
+    font-style: oblique;
+    font-size: 40px;
+}
+
+.tabsize{
+    font-size: 30px;
+    padding-left: 300px;
+    font-family: "Gill Sans", sans-serif
+}
+
+.hello-text{
+    font-size: 48px;
+    padding-left: 400px;
+    padding-top: 202px;
+    font-family: "Gill Sans", sans-serif
+}
+
+.search-bar{
+    padding-left: 100px;
+    padding-top: 215px;
+    border-radius: 2em;
+    margin: 0 auto;
+    font-family: "Gill Sans", sans-serif
+}
+
+.search-button{
+    padding-left: 85px;
+    padding-top: 215px;
+    font-family: "Gill Sans", sans-serif
+}
+
+
+
+.horizontal-line{
+    color: goldenrod;
+}
