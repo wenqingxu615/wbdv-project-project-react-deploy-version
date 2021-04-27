@@ -41,7 +41,10 @@ const SoldBooksList = ({user,offers}) => {
 
                         <div className="list-group">
                             {
-                                cachedOffers.map(offer => {
+                                cachedOffers.filter(x =>{
+                                if(x.bookId === ID) return true
+                                else return false
+                            }).map(offer => {
                                     return (
                                         <div className="list-group-item">
                                             <div>
